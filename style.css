@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .hidden {
@@ -19,7 +21,6 @@ body {
 }
 
 ul {
-  padding: 0;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
