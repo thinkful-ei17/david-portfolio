@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('./img/header.jpg');
+  background-size:100% 100%;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+/*   border-bottom: 1px solid #1c1e29; */
+}
+
+li {
+  padding: 10px;
+}
+
+a:hover {
+  border-bottom: 2px solid #1c1e29;
+}
+
+a {
+  color: #1c1e29;
+  text-decoration: none;
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+
+.home {
+  position: relative;
+  text-align: center;
+  top: 30%;
+}
+
+/* 
+header{ 
+  position: relative;
+  background-image: url('./img/header.jpg');
+  background-size:100% 100%;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+h1, header p {
+  position: relative;
+  color: #1c1e29;
+  top: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.project-1, .project-3 {
+  background-color: #FFF;
+}
+
+.project-2, .project-4 {
+  background-color: #fafafa;
+}
+
+.work h2 {
+  position: relative;
+  top: 48%;
+  text-align: center;
+}
+ */
