@@ -20,6 +20,11 @@ body {
   background-repeat: no-repeat;
 }
 
+div {
+  width: 100vw;
+  height: 100vh;
+}
+
 ul {
   position: relative;
   top: 18px;
@@ -58,37 +63,19 @@ a {
 }
 
 .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-top: 50%;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  top: 35%;
+}
+
+.contact a {
+  position: relative;
+  margin: 2%;
+  width: 8%px;
+  height: 8%px;
 }
 
 .contact a :hover {
   color: #3e3e3ec2;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-  .contact {
-    padding: 0;
-    display: block;
-    position: relative;
-    text-align: center;
-    top: 35%;
-  }
-
-  .contact a {
-    position: relative;
-    margin: 24px;
-    width: 84px;
-    height: 84px;
-  }
-
 }
