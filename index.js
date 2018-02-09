@@ -1,7 +1,7 @@
 'use strict';
 
 $(() => {
-  $('a').click(event => {
+  $('nav a').click(event => {
     event.preventDefault();
     const clicked = event.currentTarget.text.toLowerCase();
     $('div').not(`.${clicked}`).addClass('hidden');

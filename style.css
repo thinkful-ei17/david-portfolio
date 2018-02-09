@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Carme', sans-serif;
 }
 
 body {
@@ -21,17 +21,20 @@ body {
 }
 
 ul {
+  position: relative;
+  top: 18px;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-/*   border-bottom: 1px solid #1c1e29; */
+/*   border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 18px; */
 }
 
 li {
   padding: 10px;
 }
 
-a:hover {
+nav a:hover {
   border-bottom: 2px solid #1c1e29;
 }
 
@@ -45,44 +48,23 @@ a {
 .home {
   position: relative;
   text-align: center;
-  top: 30%;
+  top: 35%;
 }
 
-/* 
-header{ 
+.contact {
   position: relative;
-  background-image: url('./img/header.jpg');
-  background-size:100% 100%;
-  width: 100vw;
-  height: 100vh;
   text-align: center;
+  top: 35%;
 }
 
-h1, header p {
+
+.contact a {
   position: relative;
-  color: #1c1e29;
-  top: 48%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 24px;
+  width: 84px;
+  height: 84px;
 }
 
-
-section {
-  width: 100vw;
-  height: 100vh;
+.contact a :hover {
+  color: #3e3e3ec2;
 }
-
-.project-1, .project-3 {
-  background-color: #FFF;
-}
-
-.project-2, .project-4 {
-  background-color: #fafafa;
-}
-
-.work h2 {
-  position: relative;
-  top: 48%;
-  text-align: center;
-}
- */
