@@ -2,9 +2,10 @@
 
 $(() => {
   $('nav a').click(event => {
-    event.preventDefault();
-    const clicked = event.currentTarget.text.toLowerCase();
-    $('div').not(`.${clicked}`).addClass('hidden');
-    $(`.${clicked}`).removeClass('hidden');
+    const clicked = event.currentTarget;
+    $('div').not(`.${clicked.text.toLowerCase()}`).addClass('hidden');
+    $(`.${clicked.text.toLowerCase()}`).removeClass('hidden');
+    $('nav a').not(clicked).removeClass('active');
+    $(clicked).addClass('active');
   });
 });

@@ -8,13 +8,17 @@
   display: none !important;
 }
 
+.active {
+  border-bottom: 2px solid #1c1e29;
+}
+
 html {
   font-family: 'Carme', sans-serif;
 }
 
 body {
-  background-image: url('./img/header.jpg');
-  background-size:100% 100%;
+  background: url('./img/header.jpg') center bottom;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -22,7 +26,7 @@ body {
 
 div {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 ul {
