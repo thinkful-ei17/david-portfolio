@@ -5,7 +5,7 @@
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 html {
@@ -58,19 +58,37 @@ a {
 }
 
 .contact {
-  position: relative;
-  text-align: center;
-  top: 35%;
-}
-
-
-.contact a {
-  position: relative;
-  margin: 24px;
-  width: 84px;
-  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35%;
 }
 
 .contact a :hover {
   color: #3e3e3ec2;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .contact {
+    padding: 0;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 35%;
+  }
+
+  .contact a {
+    position: relative;
+    margin: 24px;
+    width: 84px;
+    height: 84px;
+  }
+
 }
